@@ -1,4 +1,4 @@
-package com.goit.module_3.part_1;
+package com.goit.module_3.directory;
 
 
 public class TextFile extends File { 

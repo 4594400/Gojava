@@ -1,4 +1,4 @@
-package com.goit.module_3.part_1;
+package com.goit.module_3.directory;
 
 
 import java.util.List;

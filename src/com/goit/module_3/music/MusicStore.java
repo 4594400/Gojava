@@ -1,4 +1,4 @@
-package com.goit.module_3.part_3;
+package com.goit.module_3.music;
 
 
 import java.util.List;
