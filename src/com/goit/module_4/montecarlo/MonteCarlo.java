@@ -1,4 +1,4 @@
-package com.goit.module_4;
+package com.goit.module_4.montecarlo;
 
 
 import java.math.BigDecimal;
