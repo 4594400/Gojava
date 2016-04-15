@@ -8,7 +8,7 @@ public class Pianist implements Sounding{
         if (musicalInstrument instanceof Piano) {
             System.out.println("Started playing the " + musicalInstrument.getName());
     } else {
-            throw new IllegalArgumentException(" " + musicalInstrument.getClass());
+            throw new IllegalArgumentException(" " + musicalInstrument.getType());
         }
 }
 }
