@@ -5,4 +5,9 @@ public class Piano extends MusicalInstrument {
     public Piano(String brand, int weight, int price) {
         super(brand, weight, price);
     }
+
+    @Override
+    public String getType() {
+        return "Piano";
+    }
 }

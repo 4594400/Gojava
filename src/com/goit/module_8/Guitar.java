@@ -6,4 +6,9 @@ public class Guitar extends MusicalInstrument {
         super(brand, weight, price);
     }
 
+    @Override
+    public String getType() {
+        return "Guitar";
+    }
+
 }

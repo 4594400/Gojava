@@ -13,6 +13,9 @@ public abstract class MusicalInstrument {
         this.price = price;
     }
 
+    public abstract String getType();
+
+
     public String getBrand() {
         return brand;
     }
@@ -37,5 +40,12 @@ public abstract class MusicalInstrument {
         this.price = price;
     }
 
-
+    @Override
+    public String toString() {
+        return  getType() + ": {" +
+                "brand='" + brand + '\'' +
+                ", weight=" + weight +
+                ", price=" + price +
+                '}';
+    }
 }

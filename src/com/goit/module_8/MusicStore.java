@@ -15,4 +15,11 @@ public class MusicStore {
 	public void setInstruments(List<MusicalInstrument> instruments) {
 		this.instruments = instruments;
 	}
+
+	@Override
+	public String toString() {
+		return "MusicStore{" +
+				"instruments=" + instruments +
+				'}';
+	}
 }
