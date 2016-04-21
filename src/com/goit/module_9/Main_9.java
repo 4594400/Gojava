@@ -17,11 +17,11 @@ public class Main_9 {
         List<MusicalInstrument> musicalInstruments = createListOfInstruments();
         musicStore.setInstruments(musicalInstruments);
 
-        String EncryptedText = cipherOfCaesar.encrypt(musicStore.getInstruments().toString(), 12);
+        String encryptedText = cipherOfCaesar.encrypt(musicStore.getInstruments().toString(), 12);
 
 
-        System.out.println("Encrypted: " + EncryptedText);
-        System.out.println("Decrypred: " + cipherOfCaesar.decrypt(EncryptedText, 12));
+        System.out.println("Encrypted: " + encryptedText);
+        System.out.println("Decrypred: " + cipherOfCaesar.decrypt(encryptedText, 12));
     }
 
 

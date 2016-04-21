@@ -12,6 +12,9 @@ public class Triangle extends Figure {
 
     @Override
     public double area() {
+        if (a<=0 || b<=0 || c<=0) {
+            throw new IllegalArgumentException("Side of the triangle can't be less than or equal to zero");
+        }
         double p = (a + b + c) / 2;
         return Math.sqrt(p * (p - a) * (p - b) * (p - c));
 
